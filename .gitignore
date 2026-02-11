@@ -1,0 +1,2 @@
+# Chain-specific build artifacts are in solana/.gitignore and ethereum/
+.DS_Store

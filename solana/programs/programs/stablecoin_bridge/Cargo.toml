@@ -1,0 +1,20 @@
+[package]
+name = "stablecoin_bridge"
+version = "0.1.0"
+description = "Liquidity-native stablecoin bridge program for Solana"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "stablecoin_bridge"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+
+[dependencies]
+anchor-lang = "0.29.0"
+anchor-spl = "0.29.0"

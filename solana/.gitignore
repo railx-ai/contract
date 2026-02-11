@@ -1,0 +1,10 @@
+.anchor
+target
+**/*.rs.bk
+test-ledger
+.DS_Store
+node_modules
+dist
+*.so
+*.keypair
+idl/*.json
